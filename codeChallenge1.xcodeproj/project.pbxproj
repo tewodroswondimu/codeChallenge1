@@ -14,6 +14,7 @@
 		18B314BF1A6043D600BDFAE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B314BE1A6043D600BDFAE6 /* Images.xcassets */; };
 		18B314C21A6043D600BDFAE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B314C01A6043D600BDFAE6 /* LaunchScreen.xib */; };
 		18B314CE1A6043D700BDFAE6 /* codeChallenge1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B314CD1A6043D700BDFAE6 /* codeChallenge1Tests.m */; };
+		18B314D91A60492B00BDFAE6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B314D81A60492B00BDFAE6 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18B314C71A6043D700BDFAE6 /* codeChallenge1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codeChallenge1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B314CC1A6043D700BDFAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B314CD1A6043D700BDFAE6 /* codeChallenge1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = codeChallenge1Tests.m; sourceTree = "<group>"; };
+		18B314D71A60492B00BDFAE6 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		18B314D81A60492B00BDFAE6 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18B314B61A6043D600BDFAE6 /* AppDelegate.m */,
 				18B314B81A6043D600BDFAE6 /* ViewController.h */,
 				18B314B91A6043D600BDFAE6 /* ViewController.m */,
+				18B314D71A60492B00BDFAE6 /* WebViewController.h */,
+				18B314D81A60492B00BDFAE6 /* WebViewController.m */,
 				18B314BB1A6043D600BDFAE6 /* Main.storyboard */,
 				18B314BE1A6043D600BDFAE6 /* Images.xcassets */,
 				18B314C01A6043D600BDFAE6 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				18B314BA1A6043D600BDFAE6 /* ViewController.m in Sources */,
 				18B314B71A6043D600BDFAE6 /* AppDelegate.m in Sources */,
 				18B314B41A6043D600BDFAE6 /* main.m in Sources */,
+				18B314D91A60492B00BDFAE6 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
